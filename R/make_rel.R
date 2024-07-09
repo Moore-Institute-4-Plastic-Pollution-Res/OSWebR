@@ -26,12 +26,6 @@
 #' @author
 #' Win Cowger, Zacharias Steinmetz
 #'
-#' @seealso
-#' \code{\link[base]{min}()} and \code{\link[base]{round}()};
-#' \code{\link{adj_intens}()} for log transformation functions;
-#' \code{\link{conform_spec}()} for conforming wavenumbers of an
-#' \code{OpenSpecy} object to be matched with a reference library
-#'
 #'
 #' @export
 make_rel <- function(x, ...) {
