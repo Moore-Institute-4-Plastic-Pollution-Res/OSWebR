@@ -3,7 +3,7 @@ Title: A webR version of Open Specy
 Version: 0.1
 Authors@R: 
     person("Win", "Cowger", , "first.last@example.com", role = c("aut", "cre"))
-Description: Allows use of Open Specy on webr
+Description: Allows use of Open Specy on webr.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

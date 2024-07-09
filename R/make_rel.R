@@ -40,12 +40,3 @@ make_rel.default <- function(x, na.rm = FALSE, ...) {
 
   return((x - r[1]) / (r[2] - r[1]))
 }
-
-#' @rdname make_rel
-#'
-#' @export
-make_rel.OpenSpecy <- function(x, na.rm = FALSE, ...) {
-  x$spectra <- x$spectra[, lapply(.SD, make_rel, na.rm = na.rm, ...)]
-
-  return(x)
-}
